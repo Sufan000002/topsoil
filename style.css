@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #424745;
+    background-image: url("alcohol1.jpg");
+    animation: scroll-bg 10s linear infinite
+  }
+  @keyframes scroll-bg {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 1000px 1000px;
+    }
+  }
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    min-height: 100vh;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    padding: 0 50px;
+  }
+  
+  .X{
+    display: flex;
+  align-items: center;
+  font-family: Impact;
+  font-size: 4em;
+  }
